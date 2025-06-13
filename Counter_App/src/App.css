@@ -1,0 +1,27 @@
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+  background: linear-gradient(#e66465, #9198e5);
+}
+.btn-wrapper button {
+  background-color: aqua;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 5%;
+  width: 8%;
+}
+.btn-wrapper p {
+  height: 5%;
+  width: 8%;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+}
